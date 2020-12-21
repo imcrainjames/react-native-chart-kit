@@ -22,12 +22,6 @@ export interface Dataset {
 
   /** Unique key **/
   key?: string | number;
-
-  /** Stroke Dash Array */
-  strokeDashArray?: number[];
-
-  /** Stroke Dash Offset */
-  strokeDashOffset?: number;
 }
 
 export interface ChartData {

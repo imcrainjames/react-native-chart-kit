@@ -640,8 +640,6 @@ class LineChart extends AbstractChart<LineChartProps, LineChartState> {
           fill="none"
           stroke={this.getColor(dataset, 0.2)}
           strokeWidth={this.getStrokeWidth(dataset)}
-          strokeDasharray={dataset.strokeDashArray}
-          strokeDashoffset={dataset.strokeDashOffset}
         />
       );
     });
@@ -723,8 +721,6 @@ class LineChart extends AbstractChart<LineChartProps, LineChartState> {
           fill="none"
           stroke={this.getColor(dataset, 0.2)}
           strokeWidth={this.getStrokeWidth(dataset)}
-          strokeDasharray={dataset.strokeDashArray}
-          strokeDashoffset={dataset.strokeDashOffset}
         />
       );
     });
